@@ -5,7 +5,7 @@ import Nav from "../components/nav";
 export default function Home() {
   useEffect(() => {
     console.log(
-      "Made by Sarthak Mohanty. All Rights Reserved. Want to hire me? https://srtk.me"
+      "Hello World"
     );
   });
 
