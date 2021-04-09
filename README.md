@@ -1,6 +1,5 @@
-# Perfect
-The best Next.js boilerplate ever.
-# What does this have?
+# What this template uses:
+
 - Tailwind CSS (no more going through the installation guide!) - for styling components easily
 - `next-themes` (@pacocoursey) - for going to the dark side
 - `swr` (@vercel) - for fetching constantly mutating data
@@ -8,4 +7,4 @@ The best Next.js boilerplate ever.
 - `framer-motion` - for making interactive components and eye-catching animations
 - `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
 
-&copy; 2021 Sarthak Mohanty. Licensed under the [Unlicense](LICENSE) from Mozilla.
+Based on [@sarthaktexas](https://github.com/sarthaktexas/perfect)'s Perfect Next.js Theme.
