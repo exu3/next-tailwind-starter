@@ -9,7 +9,7 @@ export default function Home() {
       <Nav />
       <div className="text-xl text-center">
         <h1 className="leading-loose">
-          You are viewing the Next-Tailwind theme starter.
+          You are viewing a Next.js + Tailwind CSS starter.
         </h1>
         <button className="rounded-md bg-blue-300 dark:bg-blue-500 p-2 px-4 shadow-md mx-auto hover:shadow-lg">
           <a href="https://github.com/eilla1/next-starter">Github</a>
