@@ -2,11 +2,12 @@
 
 ## What it includes
 
-- Tailwind CSS
+- Next.js ([docs](https://nextjs.org/docs))
+- Tailwind CSS ([docs](https://tailwindcss.com/))
 - next-themes (@pacocoursey)
 - swr (@vercel)
-- framer-motion
-- react-icons
+- framer-motion ([docs](https://www.framer.com/api/motion/))
+- react-icons ([icons](https://react-icons.github.io/react-icons/))
 
 ## How to use
 1. initialize your project using this template
