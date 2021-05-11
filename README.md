@@ -1,4 +1,8 @@
 # A Next.js Template
+A basic boilerplate to help you get started with Next.js + TailwindCSS.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Feilla1%2Fnext-starter)
+
 
 ## What it includes
 
@@ -16,6 +20,10 @@
 4. then, do `npm install` to install dependencies
 5. then, `npm run dev` which will run the site at localhost:3000
 
-## Deploy to Vercel
+## Other notes
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Feilla1%2Fnext-starter)
+### Dependency updates
+
+The included Dependabot configuration file means you’ll automatically get PRs
+every Monday with dependency updates. Delete `.github/dependabot.yml` to
+disable.
