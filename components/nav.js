@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { useEffect } from "react";
-import { BsCircleHalf } from "react-icons/bs";
 import { useTheme } from "next-themes";
+import { useEffect } from "react";
+import { RiMoonClearLine } from "react-icons/ri";
 
 const links = [
   { label: "Page 1", href: "/" },
@@ -34,14 +34,12 @@ export default function Nav() {
             <button
               onClick={() => {
                 setTheme(theme === "dark" ? "light" : "dark");
-                document
-                  .querySelector("#theme_toggle")
-                  .classList.toggle("rotate-180");
+                document.querySelector("#theme_toggle");
               }}
               className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10 transform duration-200"
               id="theme_toggle"
             >
-              <BsCircleHalf size={24} />
+              <RiMoonClearLine size={24} className="rotate-90" />
             </button>
           </li>
         </ul>
