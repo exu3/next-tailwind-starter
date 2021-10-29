@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect } from "react";
-import { RiMoonClearLine } from "react-icons/ri";
+import { FiSun, FiMoon } from "react-icons/fi";
 
 const links = [
   { label: "Page 1", href: "/" },
@@ -11,9 +11,6 @@ const links = [
 
 export default function Nav() {
   const { theme, setTheme } = useTheme();
-  useEffect(() => {
-    console.log("Hello World.");
-  });
   return (
     <nav className="dark:text-white">
       <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
@@ -34,12 +31,10 @@ export default function Nav() {
             <button
               onClick={() => {
                 setTheme(theme === "dark" ? "light" : "dark");
-                document.querySelector("#theme_toggle");
               }}
-              className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10 transform duration-200"
-              id="theme_toggle"
+              className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10"
             >
-              <RiMoonClearLine size={24} className="rotate-90" />
+              {theme === "dark" ? <FiSun size={24} /> : <FiMoon size={24} />}
             </button>
           </li>
         </ul>

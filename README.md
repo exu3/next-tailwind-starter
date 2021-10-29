@@ -1,8 +1,8 @@
 # A Next.js Template
+
 A basic boilerplate to help you get started with Next.js + TailwindCSS.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Feilla1%2Fnext-starter)
-
 
 ## What it includes
 
@@ -11,9 +11,9 @@ A basic boilerplate to help you get started with Next.js + TailwindCSS.
 - next-themes (@pacocoursey)
 - swr (@vercel)
 - framer-motion ([docs](https://www.framer.com/api/motion/))
-- react-icons ([icons](https://react-icons.github.io/react-icons/))
 
 ## How to use
+
 1. initialize your project using this template
 2. clone your repository `git clone https://github.com/yourusername/reponame.git`
 3. cd into your project's folder
