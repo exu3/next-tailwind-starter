@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { useEffect } from "react";
-import { FiSun, FiMoon } from "react-icons/fi";
+import { FiMoon, FiSun } from "react-icons/fi";
 
 const links = [
   { label: "Page 1", href: "/" },
