@@ -10,8 +10,8 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
-    "framer-motion": "^5.5.5",
-    "next": "12.0.3",
+    "framer-motion": "^5.5.0",
+    "next": "12.0.7",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -21,10 +21,10 @@
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.3",
+    "eslint-config-next": "^12.0.7",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "postcss": "^8.3.6",
+    "postcss": "^8.4.5",
     "tailwindcss": "^2.2.19"
   }
 }
