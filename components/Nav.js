@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { FiMoon, FiSun } from "react-icons/fi";
 
 const links = [
   { label: "Page 1", href: "/" },
@@ -19,7 +18,7 @@ export default function Nav() {
             <li className="self-center" key={`${href}${label}`}>
               <Link href={href}>
                 <a
-                  className={`px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}
+                  className={`px-4 py-2 rounded hover:bg-gray-800 dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}
                 >
                   {label}
                 </a>
@@ -33,7 +32,7 @@ export default function Nav() {
               }}
               className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10"
             >
-              {theme === "dark" ? <FiSun size={24} /> : <FiMoon size={24} />}
+              {theme === "dark" ? <span>lite</span> : <span>dark</span>}
             </button>
           </li>
         </ul>

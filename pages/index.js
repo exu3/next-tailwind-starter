@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 
 export default function Home() {
   return (
-    <div className="dark:text-white dark:bg-black min-h-screen">
+    <div className="bg-gray-50 dark:text-white dark:bg-gray-900 min-h-screen">
       <Meta title="Home" />
       <Nav />
       <div className="text-xl text-center">
