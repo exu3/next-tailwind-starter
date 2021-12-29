@@ -10,12 +10,10 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
-    "framer-motion": "^5.5.0",
     "next": "12.0.7",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "^4.2.0",
     "swr": "^1.1.2"
   },
   "devDependencies": {
