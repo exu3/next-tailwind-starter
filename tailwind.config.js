@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ["'custom mono font'", ...defaultTheme.fontFamily.mono],
+        mono: ["'Inconsolata'", ...defaultTheme.fontFamily.mono],
+        sans: ["'DM Sans'", ...defaultTheme.fontFamily.sans],
       },
     },
   },
