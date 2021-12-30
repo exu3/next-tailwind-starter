@@ -1,3 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Inconsolata */
+  @font-face {
+    font-family: "Inconsolata";
+    font-weight: 400;
+    src: url("/fonts/Inconsolata/Inconsolata-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inconsolata";
+    font-weight: 700;
+    src: url("/fonts/Inconsolata/Inconsolata-Bold.woff") format("woff");
+  }
+  /* DM Sans */
+  @font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("DM Sans Regular"),
+      url("/fonts/DMSans/DMSans-Regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: local("DM Sans Italic"),
+      url("/fonts/DMSans/DMSans-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: local("DM Sans Medium"),
+      url("/fonts/DMSans/DMSans-Medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: italic;
+    font-weight: 500;
+    src: local("DM Sans Medium Italic"),
+      url("/fonts/DMSans/DMSans-MediumItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("DM Sans Bold"),
+      url("/fonts/DMSans/DMSans-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: local("DM Sans Bold Italic"),
+      url("/fonts/DMSans/DMSans-BoldItalic.woff") format("woff");
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl;
+  }
+  .container-wide {
+    @apply max-w-screen-2xl;
+  }
+  .container-copy {
+    @apply max-w-3xl;
+  }
+  .container-narrow {
+    @apply max-w-xl;
+  }
+  .ultratitle {
+    @apply text-6xl lg:text-7xl xl:text-8xl font-bold;
+  }
+  .title {
+    @apply text-5xl lg:text-6xl xl:text-7xl font-bold;
+  }
+  .subtitle {
+    @apply mt-3 text-3xl lg:text-4xl;
+  }
+  .headline {
+    @apply text-5xl mt-3 mb-3;
+  }
+  .subheadline {
+    @apply text-3xl mt-0 mb-3;
+  }
+  .eyebrow {
+    @apply text-gray-400 text-4xl lg:text-5xl uppercase mt-0 mb-2;
+  }
+  .lead {
+    @apply text-3xl lg:text-4xl my-2 lg:my-3;
+  }
+  .caption {
+    @apply text-gray-400 font-medium;
+  }
+  .btn {
+    @apply rounded-md bg-blue-300 dark:bg-blue-500 p-2 px-4;
+  }
+}
