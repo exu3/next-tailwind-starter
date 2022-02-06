@@ -2,7 +2,7 @@
 
 Plenty of these exist, but this is my Next.js starter with Tailwind.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Feilla1%2Fnext-tailwind-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fexu3%2Fnext-tailwind-starter)
 
 This one inclues [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), [next-themes](https://github.com/pacocoursey/next-themes), and [swr](https://github.com/vercel/swr).
 
