@@ -14,7 +14,7 @@ export default function Nav() {
       <ul className="flex flex-wrap justify-between items-center p-6">
         <img
           className="w-8 h-8 rounded-full"
-          src="https://github.com/eilla1.png"
+          src="https://github.com/exu3.png"
           alt="logo"
         />
         <ul className="mx-0 flex flex-row space-x-5">
