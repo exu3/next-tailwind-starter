@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
-    "next": "12.0.7",
+    "next": "12.1.0",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2",
